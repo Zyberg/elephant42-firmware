@@ -2,6 +2,9 @@
 
 #include "config_common.h"
 
+// Frood bootloader led
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED D5 // Specify an optional status LED by GPIO number which lights up when entering the bootloader
+
 // USB descriptor
 #define VENDOR_ID 0x4649
 #define PRODUCT_ID 0x0721

@@ -1,7 +1,9 @@
 # MCU
-MCU = atmega32u4
-# Pro Micro Bootloader
-BOOTLOADER = caterina
+MCU = rp2040
+# Frood Bootloader
+BOOTLOADER = uf2
+
+CONVERT_TO=rp2040_ce
 
 SPLIT_KEYBOARD = yes
 
